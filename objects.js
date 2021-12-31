@@ -165,137 +165,137 @@
 // // it will print out our new variable 
 // console.log(alarm1);
 
-// // Activity 1
+// Activity 1
 
-// // we create an object person with different key-value pairs
-// const person = {
-//     name: 'Akvile',
-//     age: 26,
-//     songs: [
-//         'Harpe',
-//         'Jungle Bells',
-//         'Halleluhah'
-//     ],
+// we create an object person with different key-value pairs
+const person = {
+    name: 'Akvile',
+    age: 26,
+    songs: [
+        'Harpe',
+        'Jungle Bells',
+        'Halleluhah'
+    ],
 
-//     // we create a function in the object that will print out the text
-//     sayHi() {
-//         // we access the name value by using 'this' 
-//         return `Hello my name is ${this.name}.`;
-//     }
-// };
+    // we create a function in the object that will print out the text
+    sayHi() {
+        // we access the name value by using 'this' 
+        return `Hello my name is ${this.name}.`;
+    }
+};
 
-// // we call the function in the object and print it out
-// console.log(person.sayHi());
+// we call the function in the object and print it out
+console.log(person.sayHi());
 
-// // Activity 2
-// // we create an object pet with different key-value pairs
-// const pet = {
-//     name: 'Fanta',
-//     typeOfPet: 'cat',
-//     age: 12,
-//     colour: 'mixed',
+// Activity 2
+// we create an object pet with different key-value pairs
+const pet = {
+    name: 'Fanta',
+    typeOfPet: 'cat',
+    age: 12,
+    colour: 'mixed',
 
-//     // we create different methods in the object
-//     eat() {
-//         // we access the values of the keys using 'this' command 
-//         return `Your lovely ${this.typeOfPet} ${this.name} is eating.`
-//     },
+    // we create different methods in the object
+    eat() {
+        // we access the values of the keys using 'this' command 
+        return `Your lovely ${this.typeOfPet} ${this.name} is eating.`
+    },
 
-//     drink() {
-//         return `Your lovely ${this.typeOfPet} ${this.name} is drinking.`
-//     },
-// };
+    drink() {
+        return `Your lovely ${this.typeOfPet} ${this.name} is drinking.`
+    },
+};
 
-// // we call the functions in the object and print them out
-// console.log(pet.eat());
-// console.log(pet.drink());
+// we call the functions in the object and print them out
+console.log(pet.eat());
+console.log(pet.drink());
 
-// // Activity 3
-// // 1 WAY
-// const coffeeShop = {
-//     branch: 'Change Please',
-//     drinksWithPrices: [
-//         'Latte',
-//         3,
-//         'Cortado',
-//         2
-//     ],
-//     foodWithPrices: [
-//         'Panini',
-//         5,
-//         'Tostati',
-//         6
-//     ],
+// Activity 3
+// 1 WAY
+const coffeeShop = {
+    branch: 'Change Please',
+    drinksWithPrices: [
+        'Latte',
+        3,
+        'Cortado',
+        2
+    ],
+    foodWithPrices: [
+        'Panini',
+        5,
+        'Tostati',
+        6
+    ],
 
-//     drinksOrdered() {
-//         return `Your order is: ${this.drinksWithPrices[0]} ${this.drinksWithPrices[1]}£ and ${this.drinksWithPrices[2]} ${this.drinksWithPrices[3]}£ with the total cost of ${this.drinksWithPrices[1] + this.drinksWithPrices[3]}£.`
-//     },
+    drinksOrdered() {
+        return `Your order is: ${this.drinksWithPrices[0]} ${this.drinksWithPrices[1]}£ and ${this.drinksWithPrices[2]} ${this.drinksWithPrices[3]}£ with the total cost of ${this.drinksWithPrices[1] + this.drinksWithPrices[3]}£.`
+    },
 
-//     foodOrdered() {
-//         return `Your order is: ${this.foodWithPrices[0]} ${this.foodWithPrices[1]}£ and ${this.foodWithPrices[2]} ${this.foodWithPrices[3]}£ with the total cost of ${this.foodWithPrices[1] + this.foodWithPrices[3]}£.`
-//     },
-// };
+    foodOrdered() {
+        return `Your order is: ${this.foodWithPrices[0]} ${this.foodWithPrices[1]}£ and ${this.foodWithPrices[2]} ${this.foodWithPrices[3]}£ with the total cost of ${this.foodWithPrices[1] + this.foodWithPrices[3]}£.`
+    },
+};
 
-// console.log(coffeeShop.drinksOrdered());
-// console.log(coffeeShop.foodOrdered());
+console.log(coffeeShop.drinksOrdered());
+console.log(coffeeShop.foodOrdered());
 
-// // 2 WAY
-// // we create an object coffeeShop
-// const coffeeShop = {
-//     branch: 'Manchester',
+// 2 WAY
+// we create an object coffeeShop
+const coffeeShop = {
+    branch: 'Manchester',
 
-//     // we create another object in an object with drinks and their prices
-//     // every drink as a key and the price as a value
-//     drinks: {
-//         latte: 2.90,
-//         cortado: 2.50,
-//         caramelatte: 3.8,
-//         espresso: 1.8,
-//     },
+    // we create another object in an object with drinks and their prices
+    // every drink as a key and the price as a value
+    drinks: {
+        latte: 2.90,
+        cortado: 2.50,
+        caramelatte: 3.8,
+        espresso: 1.8,
+    },
 
-//     // we create another object for food
-//     // every item as a key and the price as a value
-//     food: {
-//         panini: 4.80,
-//         tostati: 5.10,
-//         muffin: 2.20,
-//         flapjack: 1.80,
-//     },
+    // we create another object for food
+    // every item as a key and the price as a value
+    food: {
+        panini: 4.80,
+        tostati: 5.10,
+        muffin: 2.20,
+        flapjack: 1.80,
+    },
 
-//     // we create a function with as many parameters as we give 
-//     drinksOrdered(...orderedDrinks) {
-//         // we create a variable of price 
-//         let price = 0;
-//         // we create a variable which will keep our parameters as string and print them out with an 'and' between them if its more than 1 drink
-//         const drinkString = orderedDrinks.join(' and ');
+    // we create a function with as many parameters as we give 
+    drinksOrdered(...orderedDrinks) {
+        // we create a variable of price 
+        let price = 0;
+        // we create a variable which will keep our parameters as string and print them out with an 'and' between them if its more than 1 drink
+        const drinkString = orderedDrinks.join(' and ');
 
-//         // we check all our given arguments and with forEach method and create a new function that if the drink is in the object they will use the drink's value to count the price, and if there are more than one add them together
-//         orderedDrinks.forEach(drink => (price += this.drinks[drink]));
+        // we check all our given arguments and with forEach method and create a new function that if the drink is in the object they will use the drink's value to count the price, and if there are more than one add them together
+        orderedDrinks.forEach(drink => (price += this.drinks[drink]));
         
-//         // we are calling the function in this object with the parameters that we got from this function
-//         return this.allOrder(drinkString, price);
-//     },
+        // we are calling the function in this object with the parameters that we got from this function
+        return this.allOrder(drinkString, price);
+    },
 
-//     // we create a function with as many parameters as we give 
-//     foodOrdered(...orderedFood) {
-//         // we create a variable of price 
-//         let price = 0;
-//         // we create a variable which will keep our parameters as string and print them out with an 'and' between them if its more than 1 item
-//         const foodString = orderedFood.join(' and ');
+    // we create a function with as many parameters as we give 
+    foodOrdered(...orderedFood) {
+        // we create a variable of price 
+        let price = 0;
+        // we create a variable which will keep our parameters as string and print them out with an 'and' between them if its more than 1 item
+        const foodString = orderedFood.join(' and ');
 
-//         // we check all our given arguments and with forEach method and create a new function that if the food is in the object they will use the food's value to count the price, and if there are more than one add them together
-//         orderedFood.forEach(item => (price += this.food[item]));
+        // we check all our given arguments and with forEach method and create a new function that if the food is in the object they will use the food's value to count the price, and if there are more than one add them together
+        orderedFood.forEach(item => (price += this.food[item]));
         
-//         // we are calling the function in this object with the parameters that we got from this function
-//         return this.allOrder(foodString, price);
-//     },
+        // we are calling the function in this object with the parameters that we got from this function
+        return this.allOrder(foodString, price);
+    },
 
-//     // we creating a function with two parameters that will print out the text with those two parameters 
-//     allOrder(order, price) {
-//         return console.log(`You have ordered ${order}, so the total price would be £${price}!`);
-//     },
-// };
+    // we creating a function with two parameters that will print out the text with those two parameters 
+    allOrder(order, price) {
+        return console.log(`You have ordered ${order}, so the total price would be £${price}!`);
+    },
+};
 
-// // we call the function which is in the object and give it as many arguments as we want 
-// coffeeShop.drinksOrdered('cortado','latte','espresso');
-// coffeeShop.foodOrdered('panini','muffin');
+// we call the function which is in the object and give it as many arguments as we want 
+coffeeShop.drinksOrdered('cortado','latte','espresso');
+coffeeShop.foodOrdered('panini','muffin');
