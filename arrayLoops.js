@@ -158,147 +158,148 @@
 
 // };
 
-// // Activity 2
+// Activity 2
 
-// // 1 WAY
-// // we set variables that min is 1 and max is 50
-// let min = Math.ceil(1);
-// let max = Math.floor(50);
+// 1 WAY
+// we set variables that min is 1 and max is 50
+let min = Math.ceil(1);
+let max = Math.floor(50);
 
-// // we run the loop for to get 6 random numbers from 1 to 50 and print them out 
-// for (i =0; i < 6; i++) {
+// we run the loop for to get 6 random numbers from 1 to 50 and print them out 
+for (i =0; i < 6; i++) {
     
-//     console.log(Math.floor(Math.random() * (max - min + 1) + min));
+    console.log(Math.floor(Math.random() * (max - min + 1) + min));
 
-// };
+};
 
-// // 2 WAY
-// // we use for loop to print out 6 random numbers
-// for (let i = 0; i < 6; i++) {
-//     // it will print out random numbers from 1 to 50 six times
-//     console.log(Math.floor(Math.random() * 50));
-// };
+// 2 WAY
+// we use for loop to print out 6 random numbers
+for (let i = 0; i < 6; i++) {
+    // it will print out random numbers from 1 to 50 six times
+    console.log(Math.floor(Math.random() * 50));
+};
 
-// // Activity 3
+// Activity 3
 
-// // we print out the numbers backwards from 9 to 0 
-// for (i = 10; i--;) {
+// we print out the numbers backwards from 9 to 0 
+for (i = 10; i--;) {
 
-//     console.log(i);
+    console.log(i);
 
-// };
+};
 
-// // Avtivity 4
+// Avtivity 4
 
-// // we create an array of our favourite movies
-// let faveFilms = [
-//     'Inglorious Bastards',
-//     'Harry Potter',
-//     'Ghostbusters',
-//     'Home Alone',
-//     'Mind Hunter'
-// ];
+// we create an array of our favourite movies
+let faveFilms = [
+    'Inglorious Bastards',
+    'Harry Potter',
+    'Ghostbusters',
+    'Home Alone',
+    'Mind Hunter'
+];
 
-// // we use for loop to go through the whole array
-// for (let i = 0; i < faveFilms.length; i++) {
-//     // we use if statement to check if the 3rd element of the array is the 'Ghostbusters'
-//     if (faveFilms[2] == 'Ghostbusters') {
-//         // if it is print out this
-//         console.log('Yay, it is Ghostbusters!');
-//     }
-//     // if it is not 'Ghostbusters' print out this
-//     else {
-//         console.log('Boo! Where is Ghostbusters!');
-//     };
+// we use for loop to go through the whole array
+for (let i = 0; i < faveFilms.length; i++) {
+    // we use if statement to check if the 3rd element of the array is the 'Ghostbusters'
+    if (faveFilms[2] == 'Ghostbusters') {
+        // if it is print out this
+        console.log('Yay, it is Ghostbusters!');
+    }
+    // if it is not 'Ghostbusters' print out this
+    else {
+        console.log('Boo! Where is Ghostbusters!');
+    }
+};
 
-// // Activity 5
+// Activity 5
 
-// // 1 WAY
-// // we create variables min 1 and max 30
-// let min = Math.ceil(1);
-// let max = Math.floor(30);
+// 1 WAY
+// we create variables min 1 and max 30
+let min = Math.ceil(1);
+let max = Math.floor(30);
 
-// // we run the for loop 6 times
-// for (i =0; i < 6; i++) {
+// we run the for loop 6 times
+for (i =0; i < 6; i++) {
     
-//     // it will randomly choose the number between 1 and 30
-//     num = Math.floor(Math.random() * (max - min + 1) + min);
+    // it will randomly choose the number between 1 and 30
+    num = Math.floor(Math.random() * (max - min + 1) + min);
 
-//     // if that number is divisible by 7 print out this
-//     if (num % 7 == 0) {
-//         console.log(`Number ${num} is divisible by 7.`);
-//     }
-//     // if not print out this
-//     else {
-//         console.log(`Number ${num} is not divisible by 7.`);
-//     }
-// };
+    // if that number is divisible by 7 print out this
+    if (num % 7 == 0) {
+        console.log(`Number ${num} is divisible by 7.`);
+    }
+    // if not print out this
+    else {
+        console.log(`Number ${num} is not divisible by 7.`);
+    }
+};
 
-// // 2 WAY
+// 2 WAY
 
-// // we run for loop 6 times 
-// for (let i = 0; i < 6; i++) {
-//     // we create a random number from 1 to 30 
-//     let num = Math.floor(Math.random() * 30);
-//     // if number is divisible 7 print out this 
-//     if (num % 7 == 0) {
-//         console.log(`Number ${num} is divisible by 7!`);
-//     }
-//     // if number is not divisible by 7 print out this
-//     else {
-//         console.log(`Number ${num} is not divisible by 7...`)
-//     }
-// };
+// we run for loop 6 times 
+for (let i = 0; i < 6; i++) {
+    // we create a random number from 1 to 30 
+    let num = Math.floor(Math.random() * 30);
+    // if number is divisible 7 print out this 
+    if (num % 7 == 0) {
+        console.log(`Number ${num} is divisible by 7!`);
+    }
+    // if number is not divisible by 7 print out this
+    else {
+        console.log(`Number ${num} is not divisible by 7...`)
+    }
+};
 
-// // Activity 6
+// Activity 6
 
-// // we create an array for George fallowers
-// let georgesFallowers = [
-//     'Adam',
-//     'Hana',
-//     'Beth',
-//     'Elizabeth'
-// ];
+// we create an array for George fallowers
+let georgesFallowers = [
+    'Adam',
+    'Hana',
+    'Beth',
+    'Elizabeth'
+];
 
-// // we create an array for Innes fallowers
-// let innesFallowers = [
-//     'Hana',
-//     'Tom',
-//     'Richard',
-//     'Adam'
-// ];
+// we create an array for Innes fallowers
+let innesFallowers = [
+    'Hana',
+    'Tom',
+    'Richard',
+    'Adam'
+];
 
-// // we run the for loop through the Georges fallowers array
-// for (let i = 0; i < georgesFallowers.length; i++) {
-//     // in this loop we run another for loop through Innes fallowers array
-//     for ( j = 0; j < innesFallowers.length; j++) {
-//         // if the George's fallower which number on the array is i matches Innes fallower which number on the array is j it prints the name out 
-//         if (georgesFallowers[i] === innesFallowers[j]) {
-//             console.log(`${georgesFallowers[i]} is fallowing Innes and George!`);
-//         }
-//     }
-// };
+// we run the for loop through the Georges fallowers array
+for (let i = 0; i < georgesFallowers.length; i++) {
+    // in this loop we run another for loop through Innes fallowers array
+    for ( j = 0; j < innesFallowers.length; j++) {
+        // if the George's fallower which number on the array is i matches Innes fallower which number on the array is j it prints the name out 
+        if (georgesFallowers[i] === innesFallowers[j]) {
+            console.log(`${georgesFallowers[i]} is fallowing Innes and George!`);
+        }
+    }
+};
 
-// // Activity 7 
-// // do..while loop
-// // it will run at least one time and then checks if the condition was met
+// Activity 7 
+// do...while loop
+// it will run at least one time and then checks if the condition was met
 
-// // we create an emty string variable
-// let result = '';
-// // we create variable with number
-// let i = 3;
+// we create an emty string variable
+let result = '';
+// we create variable with number
+let i = 3;
 
-// // we run do...while loop 
-// // we do this at least once even the condition is not right 
-// do {
-//     i = i + 1;
-//     result = result + i;
-// } 
-// // the loop will be running while condition is met
-// while (i < 5);
+// we run do...while loop 
+// we do this at least once even the condition is not right 
+do {
+    i = i + 1;
+    result = result + i;
+} 
+// the loop will be running while condition is met
+while (i < 5);
 
-// // it will preint the result 
-// console.log(result);
+// it will preint the result 
+console.log(result);
 
 // // test question
 // let age = 17;
@@ -307,6 +308,6 @@
 //     console.log('Child!');
 //     // make sure to put enough ++ otherwise it won't work 
 //     age++;
-// }
+// };
 
 // console.log('Adult!');
